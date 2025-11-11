@@ -1,0 +1,13 @@
+{
+  "name": "week11-quotes-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "backend": "npx json-server --watch ./data/db.json --port 5050"
+  },
+  "dependencies": {
+    "vite": "^5.4.0",
+    "json-server": "^1.0.0"
+  }
+}

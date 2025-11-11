@@ -1,0 +1,14 @@
+{
+  "name": "week11-fetch-demo",
+  "version": "1.0.0",
+  "description": "Self practice week 11 - CRUD with JSON Server + Vite",
+  "scripts": {
+    "dev": "vite --host",
+    "backend": "npx json-server --watch ./Week11/data/db.json --port 5000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "json-server": "^0.17.4"
+  }
+}
