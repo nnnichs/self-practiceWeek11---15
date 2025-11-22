@@ -1,6 +1,7 @@
+ใช้chat ช่วยอธิบายช่วยทำ 
 Week13 – CRUD Quote Project
 ใช้ fetch API ทำ GET / POST / PUT / DELETE
  แยกไฟล์เป็น 3 layers: fetchUtils → quoteManagement → app.js
  update DOM แบบ dynamic หลังทำ CRUD
  ใช้ hidden input เพื่อเก็บ quoteId สำหรับแก้ไข
- ใช้ async/await ทุกขั้นตอนเพื่อป้องกัน promise pending
+ ใช้ async/await ทุกขั้นตอนเพื่อป้องกัน promise pending  

@@ -36,7 +36,7 @@ function newQuoteCard(quote) {
   return div
 }
 
-// ------------------ EDIT -------------------
+//  EDIT 
 function handleEdit(e) {
   const id = e.target.dataset.id
   const card = document.querySelector(`div[data-id="${id}"]`)
@@ -47,7 +47,7 @@ function handleEdit(e) {
   form.author.value = card.children[1].textContent
 }
 
-// ------------------ DELETE -------------------
+// DELETE
 async function handleDelete(e) {
   const id = e.target.dataset.id
   if (!confirm(`Delete quote: ${id}?`)) return
@@ -60,7 +60,7 @@ async function handleDelete(e) {
   }
 }
 
-// ------------------ ADD & EDIT -------------------
+// ADD , EDIT 
 const form = document.getElementById("quoteForm")
 form.addEventListener("submit", handleSubmit)
 

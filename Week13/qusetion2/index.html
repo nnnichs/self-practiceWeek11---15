@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Quotes – Extra</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quote Manager (Extra Feature)</h1>
+
+      <form id="quoteForm">
+        <input type="hidden" id="quoteId" />
+        <div class="form-group">
+          <label for="content">Quote</label>
+          <textarea id="content" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input id="author" required />
+        </div>
+
+        <button type="submit" class="btn">Add / Edit</button>
+      </form>
+
+      <h2>All Quotes</h2>
+      <div id="quoteList" class="quote-list"></div>
+
+      <h2>Your Favorites ❤️</h2>
+      <div id="favList" class="quote-list"></div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

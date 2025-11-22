@@ -1,0 +1,37 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  background: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.quote-card {
+  background: #fff5c9;
+  border: 1px solid #ffd76a;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.author {
+  color: #555;
+}
+
+.actions button,
+.fav-btn {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.fav-btn {
+  font-size: 18px;
+  color: red;
+  border: none;
+  background: none;
+}

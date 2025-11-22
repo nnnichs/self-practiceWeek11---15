@@ -1,0 +1,16 @@
+chat สร้าง 
+ให้พัฒนาฟีเจอร์ Favorite Quotes โดยใช้ LocalStorage
+เพื่อให้ผู้ใช้สามารถกดปุ่ม ❤️ ที่แต่ละ quote เพื่อบันทึกคำคมที่ชอบลงใน Favorites และแสดงรายชื่อ Favorite 
+งหมดด้านล่างของหน้า โดยข้อมูล Favorite ต้องถูกเก็บใน localStorage ทำให้ยังคงอยู่แม้ผู้ใช้ปิดเว็บหรือ refresh หน้าเว็บ
+รายละเอียดที่ต้องทำ (อธิบายให้ดูเป็นโจทย์จริง)
+เพิ่มปุ่ม ❤️ ในแต่ละ quote card
+เมื่อผู้ใช้กด ❤️ ให้บันทึกข้อมูล quote (id, content, author) ลง localStorage
+แสดงรายการ Favorite Quotes ใน section ใหม่ด้านล่าง
+ถ้า refresh หน้าเว็บแล้ว → Favorite ยังต้องคงอยู่ (persistent storage)
+ห้ามส่งข้อมูล Favorite ไป backend (ต้องเก็บฝั่ง frontend เท่านั้น)
+ต้องมีฟังก์ชัน
+getFavs()
+saveFavs()
+handleFavorite()
+loadFavorites()
+ต้อง update DOM แบบ dynamic หลังมีการเพิ่ม Favorite
