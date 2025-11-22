@@ -1,0 +1,33 @@
+body {
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.quote-card {
+  background: #fff4c8;
+  border: 1px solid #ffdd77;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.quote-card p {
+  margin: 5px 0;
+}
+
+.author {
+  color: #555;
+}
+
+.actions button {
+  margin-right: 10px;
+  cursor: pointer;
+}
