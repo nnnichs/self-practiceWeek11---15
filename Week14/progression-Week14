@@ -1,0 +1,9 @@
+ใช้ Chat ช่วยอธิบายและช่วยทำ
+DateTime & Dialog Project
+-ใช้ JavaScript Date เพื่อสร้างวันที่และเวลา
+-ใช้ Date เปรียบเทียบเวลา
+-ตรวจสอบช่วงเวลา valid time period
+-สร้างระบบ Dialog แบบ custom (ไม่ใช้ alert/confirm)
+-แยกไฟล์เป็น module
+-ใช้ async/await จัดลำดับ
+
