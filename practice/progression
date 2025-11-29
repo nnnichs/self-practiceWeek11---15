@@ -1,0 +1,6 @@
+-ดึงข้อมูลจาก JSON Server
+=จัดการข้อมูลแบบ CRUD
+=DateTime Validation
+-ทำ Custom Dialog
+ใช้ Event Handling, DOM Manipulation และ Client Storage
+เหมือนเดิม chat ช่วย สร้างโจทย์ให้ ช่วยไกด์ตอนทำ แล้วก็ตรวจ

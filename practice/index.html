@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 15 – Task Dashboard</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <h1>Week 15 – Task Dashboard</h1>
+
+  <section class="form-section">
+    <h2>Create / Edit Task</h2>
+
+    <form id="taskForm">
+      <input type="hidden" id="taskId">
+
+      <label>Title</label>
+      <input type="text" id="title" required>
+
+      <label>Deadline</label>
+      <input type="datetime-local" id="deadline" required>
+
+      <button type="submit">Save</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <section id="analytics"></section>
+
+  <hr>
+
+  <section id="taskList" class="task-container"></section>
+
+  <!-- Dialog -->
+  <dialog id="confirmDialog">
+    <p id="dialogMessage">Are you sure?</p>
+    <button id="okBtn">OK</button>
+    <button id="cancelBtn">Cancel</button>
+  </dialog>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
