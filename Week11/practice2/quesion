@@ -1,0 +1,8 @@
+โจทย์ที่ 2: Quote Viewer + Theme + Keyboard Counter
+โปรเจกต์นี้มี 3 ฟีเจอร์ในหน้าเดียว
+✔ ใช้ functional programming ในการประมวลผลคำคม
+✔ ใช้ DOM + Event เพิ่ม/ลบ/สุ่มคำคม
+✔ ใช้ Keydown event นับจำนวนปุ่มที่ผู้ใช้กด
+✔ ใช้ LocalStorage จำธีมเว็บ
+
+chatสร้างโจทย์ให้

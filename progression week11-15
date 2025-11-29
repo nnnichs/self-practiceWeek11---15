@@ -1,3 +1,6 @@
+Week 11 วีคนี้ไม่มีclass เลยฝึกทำเนื้อหาที่เรียนมาของวีค 6-11 เอามาฝึกทำ ทำโจทย์ที่รวม Functional Programming, DOM Manipulation, 
+Event Handling , Client-Side Storage
+
 Week 12 อาจารย์สอนเรื่อง async / sync, promise และการใช้ fetch API ปูพืั้นฐานให้เข้าใจจริงๆว่าเวลา JS ทำงานแบบไม่รอคิวมันจะเกิดปัญหาอะไรบ้าง
 และเราต้องจัดการยังไง เช่น pending / resolve / reject คืออะไร, ทำไมบางค่าถึงเป็น undefined เพราะเรียกงานที่ยังไม่เสร็จ แล้วก็ยกตัวอย่าง setTimeout
 ให้เห็นชัดๆ หัวข้อหลักคือ fetch ฟังก์ชัน เพราะ fetch เป็น async + return promise เพื่อให้เราเอาไปใช้ใน PBI ใน Integrated Project แล้วอาจารย์ก็พูดถึงเรืองโค้ด

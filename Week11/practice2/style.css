@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 25px;
+}
+
+.card {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+ul li {
+  margin-top: 6px;
+  padding: 5px;
+  background: #f8f8f8;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  margin-top: 8px;
+  cursor: pointer;
+}

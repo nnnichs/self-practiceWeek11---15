@@ -1,0 +1,45 @@
+<!-- อันนี้แชท-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week11 Practice — Summary Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Week 11 Integration Project</h1>
+
+  <section class="card">
+    <h2>Theme Settings (LocalStorage - Week10)</h2>
+    <label>Background: <input type="color" id="bgColor"></label>
+    <label>Font Color: <input type="color" id="fontColor"></label>
+    <label>Font Size:
+      <select id="fontSize">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </label>
+    <button id="saveTheme">Save</button>
+    <button id="resetTheme">Reset</button>
+  </section>
+
+
+  <section class="card">
+    <h2>To-Do List (DOM + Event - Week07–09)</h2>
+    <input id="todoInput" placeholder="Type something..." />
+    <button id="addBtn">Add</button>
+    <p id="error"></p>
+    <ul id="todoList"></ul>
+  </section>
+
+  <section class="card">
+    <h2>Callback Summary (Week06)</h2>
+    <button id="sumBtn">Sum of [1,2,3,4,5]</button>
+    <p id="sumResult"></p>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

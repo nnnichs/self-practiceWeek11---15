@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quote Manager v2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Week 11 — Integrated Practice (Set 2)</h1>
+
+
+  <section class="card">
+    <h2>Theme Settings (Week10)</h2>
+    <label>Background: <input type="color" id="bgColor"></label>
+    <label>Font Color: <input type="color" id="fontColor"></label>
+    <button id="saveTheme">Save</button>
+    <button id="resetTheme">Reset</button>
+  </section>
+
+
+  <section class="card">
+    <h2>Quote Manager (DOM + Event)</h2>
+
+    <input id="quoteInput" placeholder="Type quote" />
+    <input id="authorInput" placeholder="Author" />
+    <button id="addQuote">Add</button>
+
+    <ul id="quoteList"></ul>
+
+    <button id="randomQuote">Show Random</button>
+    <p id="randomDisplay"></p>
+  </section>
+
+
+  <section class="card">
+    <h2>Keyboard Counter (Week09)</h2>
+    <p>Pressed keys: <span id="keyCount">0</span></p>
+    <input id="keyBox" placeholder="Start typing...">
+  </section>
+
+  <section class="card">
+    <h2>Functional Programming (Week06)</h2>
+    <button id="longestQuoteBtn">Show Longest Quote</button>
+    <p id="longestQuote"></p>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
