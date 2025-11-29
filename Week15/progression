@@ -1,0 +1,6 @@
+(add/edit/delete)
+ใช้ Fetch API ติดต่อ JSON Server
+แยกโค้ดเป็นโมดูล fetchUtils.js, dialog.js, formatter.js ตามวีค13
+DateTime มาสร้าง timestamp
+ใช้ custom dialog แบบ async/await 
+ใช้ chat สร้างโจทย์ ไกด์ทำ แล้วก็เช็คอยู่ตลอด เพราะทำเองยังไม่ค่อยเป็น 

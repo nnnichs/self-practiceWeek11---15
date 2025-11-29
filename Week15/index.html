@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 15 – Task Manager</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <h1>Week 15 – Task Manager</h1>
+
+  <section id="taskForm">
+    <input type="hidden" id="taskId" />
+    <input type="text" id="taskText" placeholder="Enter task..." required>
+    <button id="saveBtn">Save Task</button>
+  </section>
+
+  <div id="taskList"></div>
+
+
+  <dialog id="confirmDialog">
+    <p>Are you sure you want to delete?</p>
+    <button id="okBtn">OK</button>
+    <button id="cancelBtn">Cancel</button>
+  </dialog>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
